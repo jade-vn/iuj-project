@@ -1,2 +1,2 @@
-# iuj-project
+# Elephant
 Project for Python course
