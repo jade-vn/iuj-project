@@ -179,6 +179,7 @@ year = int(TODAY[: 4])
 st.title('ELEPHANTS: STOCK PRICE PREDICTOR APPLICATION')
 
 try:
+    st.sidebar.image("elephant.jpg")
     option = st.sidebar.selectbox("Which Dashboard?", ('Past Trends', 'Predict Stock Price', 'Trending Business News'),
                                   0)
     stock = st.sidebar.text_input("Symbol", value='AAPL')
