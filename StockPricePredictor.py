@@ -176,12 +176,12 @@ START = "2018-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 year = int(TODAY[: 4])
 
-st.title('Group2: STOCK FORECAST APP')
+st.title('ELEPHANTS: STOCK PRICE PREDICTOR APPLICATION')
 
 try:
     option = st.sidebar.selectbox("Which Dashboard?", ('Past Trends', 'Predict Stock Price', 'Trending Business News'),
                                   0)
-    stock = st.sidebar.text_input("Symbol", value='GOOG')
+    stock = st.sidebar.text_input("Symbol", value='AAPL')
     selected_stock = stock
 
     selection = Ticker(selected_stock)
