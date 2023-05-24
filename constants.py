@@ -1,5 +1,5 @@
 countries = {
-    
+    "United States": "us",
     "Argentina": "ar",
     "Australia": "au",
     "Austria": "at",
@@ -52,6 +52,6 @@ countries = {
     "UAE": "ae",
     "Ukraine": "ua",
     "United Kingdom": "gb",
-    "United States": "us",
+    
     "Venuzuela": "ve"
 }
