@@ -177,6 +177,13 @@ TODAY = date.today().strftime("%Y-%m-%d")
 year = int(TODAY[: 4])
 
 st.title('ELEPHANTS: STOCK PRICE PREDICTOR APPLICATION')
+st.markdown("""
+<style>
+    .main {
+        background-color: #CCE5FF;
+    }
+</style>
+""", unsafe_allow_html=True)
 
 try:
     st.sidebar.image("elephant.jpg")
